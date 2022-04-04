@@ -120,6 +120,7 @@ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 40
 ### 编译Nachos源码
 
 解压源码
+这里需要解压到/usr/loacl目录下并重命名为nachos
 
 ```
 tar xvzf nachos.tar.gz
@@ -173,7 +174,7 @@ tar xvzf mips-decstation.linux-xgcc.tgz
 vim Makefile
 make
 ```
-
+![makefile](https://cosmoslin.oss-cn-chengdu.aliyuncs.com/img2/image-20220404224916016.png)
 
 #### 修改mips用户空间makefile, 搭建用户态程序测试环境
 
