@@ -1,8 +1,8 @@
 # Nachos_build
 # Docker安装教程
 首先下载nachos_docker.tar.gz
-  链接：https://pan.baidu.com/s/1oOB7hHqkUkD2VBD1DPiINQ 
-  提取码：4952
+链接：https://pan.baidu.com/s/1oOB7hHqkUkD2VBD1DPiINQ 
+提取码：4952
 下载后解压
 ```
 tar -zxvf nachos_docker.tar.gz
