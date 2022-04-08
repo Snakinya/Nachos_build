@@ -1,13 +1,13 @@
 # Nachos_build
 # Docker安装教程
-首先下载nachos.tar.gz
+首先下载nachos_docker.tar.gz
 下载后解压
 ```
-tar -zxvf nachos.tar.gz
+tar -zxvf nachos_docker.tar.gz
 ```
 载入镜像
 ```
-sudo docker load -i nachos.tar
+sudo docker load -i nachos_docker.tar
 ```
 载入后利用
 ```
