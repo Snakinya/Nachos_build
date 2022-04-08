@@ -1,7 +1,34 @@
 # Nachos_build
-# 安装教程
+# Docker安装教程
+首先下载nachos.tar.gz
+下载后解压
+```
+tar -zxvf nachos.tar.gz
+```
+载入镜像
+```
+sudo docker load -i nachos.tar
+```
+载入后利用
+```
+sudo docker images
+```
+建立数据卷并查看
+```
+docker volume create volume_name
+docker volume inspect volume_name
+```
+创建容器并完成nachos到数据卷的挂载
+```
+docker run -dit --name nachos-v4.1 -v volume_name:/home/nachos-v4.1 image_id
+```
+进入容器操作界面，宿主机可以通过mountpoint编辑文件
+```
+docker exec -it container_id /bin/bash
+```
+# Linux安装教程
 
-本教程基于ubuntu系统安装
+本教程基于ubuntu 20.04系统安装
 
 ## 01 查看系统发行版本
 
